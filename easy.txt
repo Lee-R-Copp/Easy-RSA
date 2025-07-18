@@ -1,0 +1,8 @@
+# clone Easy-RSA 3 repo
+  git clone https://github.com/OpenVPN/easy-rsa.git
+
+# initialize new pki
+  ./easyrsa init-pki
+
+# build CA
+  ./easyrsa build-ca
